@@ -15,11 +15,11 @@
   
     <div class="screen_content">  
         <text class="console_corner" id="langs">  
-            [<text id="RUS" class="lang">RUS</text> / <text id="DEU" class="lang">DEU</text>]  
+            [<text id="RU" class="lang">RU</text> / <text id="EN" class="lang">EN</text>]  
         </text>  
         <br>  
         <div class="console_content">  
-            <h1 id="title">Ich bin ein Geistt</h1>  
+            <h1 id="title">I am Ghost</h1>  
             <br>  
             <h3 id="bio"Experienced in C/C++, Java, Python, and more...<br>Solid knowledge of computer systems architecture and skilled in working with Windows, Linux, and Android platforms.</h3>  
             <br>  
@@ -31,47 +31,26 @@
                     <br>  
                     <h5 id="skills">  
                         - Languages: Russian, Deutsch.<br><br>  
-                        - Proficient in creating high-quality photo and video content, graphic design, and editing.<br>
+                        - Proficient in creating high-quality photo and video content, graphic design, and editing.  
                     </h5>  
                 </div>  
               <div class="side_block">
     <h3 id="contacts">Contacts</h3>
 
     <!-- YouTube -->
-    <a href="https://www.youtube.com/@fanta124home" target="_blank">
+    <a href="https://www.youtube.com/@ghost9_1_1" target="_blank">
         <div class="about_entry">
             <h3>YouTube</h3>
         </div>
     </a>
-
-    <!-- GitHub -->
-    <a href="https://github.com/GHOST911-HUNTER" target="_blank">
-        <div class="about_entry">
-            <h3>GitHub</h3>
-        </div>
-    </a>
-
-    <!-- Telegram Chat -->
-    <a href="https://t.me/+xYVHPk3N8aw2MWEy" target="_blank">
-        <div class="about_entry">
-            <h3>Telegram Chat</h3>
-        </div>
-    </a>
-
-    <!-- Telegram Kanal -->
+                  
+    <!-- Telegram Channel -->
     <a href="https://t.me/ghost9_1_1" target="_blank">
         <div class="about_entry">
             <h3>Telegram Channel</h3>
         </div>
     </a>
 
-    <!-- Discord -->
-    <a href="https://discord.gg/7wKVA6aM" target="_blank">
-        <div class="about_entry">
-            <h3>Discord</h3>
-        </div>
-    </a>
-</div>
             </div>  
             <br>  
             <div class="border"></div>  
@@ -83,19 +62,19 @@
         var current_lang = getBrowserLang(),  
             beep = new Audio("beep.mp3"),  
             locale = {  
-                "RUS": {  
+                "RU": {  
                     "title": "Я Призрак",  
-                    "bio": "Переходники справа",
+                        "bio": "Мой Сайт.",  
                     "skills": "- Знание языков: Русский, Немецкий.",  
                     "about": "Обо мне",  
                     "contacts": "Контакты"  
                 },  
-                "DEU": {  
-                    "title": "Ich bin ein Geist",  
-                    "bio": "Adapter rechts",  
-                    "skills": "- Sprachkenntnisse: Russisch, Deutsch.",  
-                    "about": "Über mich",  
-                    "contacts": "Kontakte"  
+                "EN": {  
+                    "title": "I am Ghost",  
+                    "bio": "My Site",  
+                    "skills": "- Languages: Russian, Deutsch.",  
+                    "about": "About Me",  
+                    "contacts": "Contacts"  
                 }  
             };  
   
@@ -149,8 +128,9 @@
         }  
   
         function getBrowserLang() {  
-            return /ru/i.test(navigator.language || navigator.userLanguage) ? "RUS" : "DEU";  
+            return /ru/i.test(navigator.language || navigator.userLanguage) ? "RU" : "EN";  
         }  
     </script>  
 </body>  
 </html>
+
