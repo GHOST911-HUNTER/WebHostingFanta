@@ -15,7 +15,7 @@
   
     <div class="screen_content">  
         <text class="console_corner" id="langs">  
-            [<text id="RU" class="lang">RU</text> / <text id="EN" class="lang">EN</text>]  
+            [<text id="RUS" class="lang">RUS</text> / <text id="DEU" class="lang">DEU</text>]  
         </text>  
         <br>  
         <div class="console_content">  
@@ -30,7 +30,7 @@
                     <h3 id="about">About Me</h3>  
                     <br>  
                     <h5 id="skills">  
-                        - Languages: Russian, English.<br><br>  
+                        - Languages: Russian, Deutsch.<br><br>  
                         - Proficient in creating high-quality photo and video content, graphic design, and editing.  
                     </h5>  
                 </div>  
@@ -45,7 +45,7 @@
     </a>
 
     <!-- GitHub -->
-    <a href="https://github.com/GHOST911Hunter" target="_blank">
+    <a href="https://github.com/GHOST911HUNTER" target="_blank">
         <div class="about_entry">
             <h3>GitHub</h3>
         </div>
@@ -83,19 +83,19 @@
         var current_lang = getBrowserLang(),  
             beep = new Audio("beep.mp3"),  
             locale = {  
-                "RU": {  
+                "RUS": {  
                     "title": "Я - Ghost",  
-                    "bio": "Программист C/C++, Java, Python и тд...<br>Знания об устройстве ЭВМ, умение работать с Windows, Linux, Android.",  
-                    "skills": "- Знание языков: Русский, Английский.<br><br>- Могу качественно сделать фото и видео материалы, разрабатывать дизайн и монтировать",  
+                    "bio": "Переходники справа",
+                    "skills": "- Знание языков: Русский, Немецкий",  
                     "about": "Обо мне",  
                     "contacts": "Контакты"  
                 },  
-                "EN": {  
+                "DEU": {  
                     "title": "I am Ghost",  
-                    "bio": "Experienced in C/C++, Java, Python, and more...<br>Solid knowledge of computer systems architecture and skilled in working with Windows, Linux, and Android platforms.",  
-                    "skills": "- Languages: Russian, English.<br><br>- Proficient in creating high-quality photo and video content, graphic design, and editing",  
-                    "about": "About Me",  
-                    "contacts": "Contacts"  
+                    "bio": "Adapter rechts",  
+                    "skills": "- Sprachkenntnisse: Russisch, Deutsch",  
+                    "about": "Über mich",  
+                    "contacts": "Kontakte"  
                 }  
             };  
   
@@ -149,7 +149,7 @@
         }  
   
         function getBrowserLang() {  
-            return /ru/i.test(navigator.language || navigator.userLanguage) ? "RU" : "EN";  
+            return /ru/i.test(navigator.language || navigator.userLanguage) ? "RUS" : "DEU";  
         }  
     </script>  
 </body>  
